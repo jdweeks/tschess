@@ -1,10 +1,10 @@
-import Board  from '../src/board/Board';
-import Player from '../src/player/Player';
-import Game   from '../src/game/Game';
+import Board  from './board/Board';
+import Player from './player/Player';
+import Game   from './game/Game';
 
-import DefaultBoard from '../src/board/DefaultBoard';
-import HumanPlayer  from '../src/player/HumanPlayer';
-import DefaultGame  from '../src/game/DefaultGame';
+import DefaultBoard from './board/DefaultBoard';
+import HumanPlayer  from './player/HumanPlayer';
+import DefaultGame  from './game/DefaultGame';
 
 const main = () => {
   const board: Board = new DefaultBoard();

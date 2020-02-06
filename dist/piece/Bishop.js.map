@@ -1,1 +1,1 @@
-{"version":3,"file":"Bishop.js","sourceRoot":"","sources":["../../src/piece/Bishop.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,aAAa,CAAC;AAEpC,MAAM,CAAC,OAAO,OAAO,MAAO,SAAQ,SAAS;CAE5C"}
+{"version":3,"file":"Bishop.js","sourceRoot":"","sources":["../../src/piece/Bishop.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;AAAA,yCAAoC;AAEpC;IAAoC,0BAAS;IAA7C;;IAEA,CAAC;IAAD,aAAC;AAAD,CAAC,AAFD,CAAoC,mBAAS,GAE5C"}

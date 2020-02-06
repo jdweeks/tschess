@@ -1,1 +1,1 @@
-{"version":3,"file":"Queen.js","sourceRoot":"","sources":["../../src/piece/Queen.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,aAAa,CAAC;AAEpC,MAAM,CAAC,OAAO,OAAO,KAAM,SAAQ,SAAS;CAE3C"}
+{"version":3,"file":"Queen.js","sourceRoot":"","sources":["../../src/piece/Queen.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;AAAA,yCAAoC;AAEpC;IAAmC,yBAAS;IAA5C;;IAEA,CAAC;IAAD,YAAC;AAAD,CAAC,AAFD,CAAmC,mBAAS,GAE3C"}

@@ -1,11 +1,13 @@
-import DefaultBoard from '../src/board/DefaultBoard';
-import HumanPlayer from '../src/player/HumanPlayer';
-import DefaultGame from '../src/game/DefaultGame';
-const main = () => {
-    const board = new DefaultBoard();
-    const player1 = new HumanPlayer();
-    const player2 = new HumanPlayer();
-    const game = new DefaultGame(board, player1, player2);
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var DefaultBoard_1 = require("./board/DefaultBoard");
+var HumanPlayer_1 = require("./player/HumanPlayer");
+var DefaultGame_1 = require("./game/DefaultGame");
+var main = function () {
+    var board = new DefaultBoard_1.default();
+    var player1 = new HumanPlayer_1.default();
+    var player2 = new HumanPlayer_1.default();
+    var game = new DefaultGame_1.default(board, player1, player2);
 };
 main();
 //# sourceMappingURL=main.js.map
