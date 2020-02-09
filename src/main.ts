@@ -12,6 +12,7 @@ const main = () => {
   const player2: Player = new HumanPlayer();
 
   const game: Game = new DefaultGame(board, player1, player2);
+  game.loop();
 };
 
 main();

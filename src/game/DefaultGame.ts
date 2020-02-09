@@ -1,6 +1,6 @@
-import Game  from './Game';
-import Board from '../board/Board'
+import Game   from './Game';
 import Player from '../player/Player';
+import Board  from '../board/Board';
 
 export default class DefaultGame implements Game {
   board: Board;
@@ -11,5 +11,9 @@ export default class DefaultGame implements Game {
     this.board = board;
     this.player1 = player1;
     this.player2 = player2;
+  }
+
+  loop() {
+    this.board.print();
   }
 }

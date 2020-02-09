@@ -8,6 +8,7 @@ var main = function () {
     var player1 = new HumanPlayer_1.default();
     var player2 = new HumanPlayer_1.default();
     var game = new DefaultGame_1.default(board, player1, player2);
+    game.loop();
 };
 main();
 //# sourceMappingURL=main.js.map
