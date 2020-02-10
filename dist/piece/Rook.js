@@ -16,8 +16,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var BasePiece_1 = require("./BasePiece");
 var Rook = (function (_super) {
     __extends(Rook, _super);
-    function Rook() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function Rook(light) {
+        var _this = _super.call(this) || this;
+        _this.light = light;
+        _this.totem = _this.light ? 'R' : 'r';
+        return _this;
     }
     return Rook;
 }(BasePiece_1.default));

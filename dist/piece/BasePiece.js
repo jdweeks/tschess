@@ -2,6 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var BasePiece = (function () {
     function BasePiece() {
+        this.totem = '-';
+        this.light = false;
     }
     return BasePiece;
 }());

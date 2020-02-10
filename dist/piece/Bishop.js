@@ -16,8 +16,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var BasePiece_1 = require("./BasePiece");
 var Bishop = (function (_super) {
     __extends(Bishop, _super);
-    function Bishop() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function Bishop(light) {
+        var _this = _super.call(this) || this;
+        _this.light = light;
+        _this.totem = _this.light ? 'B' : 'b';
+        return _this;
     }
     return Bishop;
 }(BasePiece_1.default));

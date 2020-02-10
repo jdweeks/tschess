@@ -16,8 +16,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var BasePiece_1 = require("./BasePiece");
 var King = (function (_super) {
     __extends(King, _super);
-    function King() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function King(light) {
+        var _this = _super.call(this) || this;
+        _this.light = light;
+        _this.totem = _this.light ? 'K' : 'k';
+        return _this;
     }
     return King;
 }(BasePiece_1.default));

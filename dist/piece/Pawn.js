@@ -16,8 +16,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var BasePiece_1 = require("./BasePiece");
 var Pawn = (function (_super) {
     __extends(Pawn, _super);
-    function Pawn() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function Pawn(light) {
+        var _this = _super.call(this) || this;
+        _this.light = light;
+        _this.totem = _this.light ? 'P' : 'p';
+        return _this;
     }
     return Pawn;
 }(BasePiece_1.default));

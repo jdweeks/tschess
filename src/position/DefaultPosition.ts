@@ -1,18 +1,19 @@
 import Position from './Position';
-import { Column } from "../column/Column";
+import { Column } from "./Column";
+import Piece from '../piece/Piece';
 
 export default class DefaultPosition implements Position {
   row: number;
   col: Column;
-  totem: string;
+  piece: Piece;
 
-  constructor(row: number, col: Column) {
+  constructor(row: number, col: Column, piece: Piece) {
     this.row = row;
     this.col = col;
-    this.totem = '-';
+    this.piece = piece;
   }
 
   print() {
-    process.stdout.write(this.totem + ' ');
+    process.stdout.write(this.piece.totem + ' ');
   }
 }

@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var DefaultPosition = (function () {
-    function DefaultPosition(row, col) {
+    function DefaultPosition(row, col, piece) {
         this.row = row;
         this.col = col;
-        this.totem = '-';
+        this.piece = piece;
     }
     DefaultPosition.prototype.print = function () {
-        process.stdout.write(this.totem + ' ');
+        process.stdout.write(this.piece.totem + ' ');
     };
     return DefaultPosition;
 }());

@@ -1,1 +1,1 @@
-{"version":3,"file":"BasePiece.js","sourceRoot":"","sources":["../../src/piece/BasePiece.ts"],"names":[],"mappings":";;AAEA;IAAA;IAEA,CAAC;IAAD,gBAAC;AAAD,CAAC,AAFD,IAEC"}
+{"version":3,"file":"BasePiece.js","sourceRoot":"","sources":["../../src/piece/BasePiece.ts"],"names":[],"mappings":";;AAEA;IAAA;QACE,UAAK,GAAW,GAAG,CAAC;QACpB,UAAK,GAAY,KAAK,CAAC;IACzB,CAAC;IAAD,gBAAC;AAAD,CAAC,AAHD,IAGC"}
